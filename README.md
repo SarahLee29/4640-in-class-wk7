@@ -51,27 +51,22 @@ terraform destroy = This removes all AWS resources created during the lab.
 
 ## 4. Ansible Commands
 
-Navigate to the ansible directory:
+### Navigate to the ansible directory:
 
 cd ~/intro-to-ansible-lab-files/ansible
 
-Check playbook syntax:
+### Check playbook syntax:
 
-ansible-playbook --syntax-check playbook.yml
+ansible-playbook --syntax-check playbook.yml = This verifies the YAML syntax before running the playbook.
 
-This verifies the YAML syntax before running the playbook.
+### Run the playbook:
 
-Run the playbook:
+ansible-playbook playbook.yml = This installs nginx, copies configuration files, deploys the template, and reloads the service.
 
-ansible-playbook playbook.yml
+### (Optional) Test connectivity to the servers:
 
-This installs nginx, copies configuration files, deploys the template, and reloads the service.
+ansible all -m ansible.builtin.ping = This confirms that Ansible can communicate with the managed nodes.
 
-(Optional) Test connectivity to the servers:
-
-ansible all -m ansible.builtin.ping
-
-This confirms that Ansible can communicate with the managed nodes.
 
 
 
