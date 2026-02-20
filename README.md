@@ -1,4 +1,4 @@
-##﻿# 4640-in-class-wk7
+### 4640-in-class-wk7
 
  ## 1. Creating SSH Keys
 
@@ -93,3 +93,4 @@ This installs nginx, copies configuration files, deploys the template, and reloa
 ansible all -m ansible.builtin.ping
 
 This confirms that Ansible can communicate with the managed nodes.
+
