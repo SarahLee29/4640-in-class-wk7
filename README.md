@@ -14,19 +14,15 @@ ssh-keygen -t ed25519 -f ~/.ssh/aws
 
 ### First, navigate to the scripts directory:
 
-cd ~/intro-to-ansible-lab-files/scripts
+cd ~/intro-to-ansible-lab-files/scripts = go into the correct directory
 
 ### To import the public key into AWS:
 
-./import_lab_key ~/.ssh/aws.pub
-
-This uploads the public key so it can be attached to EC2 instances.
+./import_lab_key ~/.ssh/aws.pub = This uploads the public key so it can be attached to EC2 instances.
 
 ### To delete the key after the lab is complete:
 
-./delete_lsb_key ~/.ssh/aws.pub
-
-This removes the key from AWS as part of cleanup.
+./delete_lsb_key ~/.ssh/aws.pub = This removes the key from AWS as part of cleanup.
 
 ## 3. Terraform Commands
 
@@ -76,6 +72,7 @@ This installs nginx, copies configuration files, deploys the template, and reloa
 ansible all -m ansible.builtin.ping
 
 This confirms that Ansible can communicate with the managed nodes.
+
 
 
 
