@@ -78,4 +78,5 @@ https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/apt
 https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_intro.html
 https://docs.ansible.com/projects/ansible/latest/inventory_guide/intro_inventory.html
 https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_handlers.html
-
+https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/package_module.html
+https://nginx.org/en/docs/beginners_guide.html
