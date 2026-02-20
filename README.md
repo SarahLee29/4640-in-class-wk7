@@ -67,7 +67,8 @@ ansible-playbook playbook.yml = This installs nginx, copies configuration files,
 
 ansible all -m ansible.builtin.ping = This confirms that Ansible can communicate with the managed nodes.
 
-
-
-
-
+## Resources
+https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/apt_module.html
+https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_intro.html
+https://docs.ansible.com/projects/ansible/latest/inventory_guide/intro_inventory.html
+https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_handlers.html
